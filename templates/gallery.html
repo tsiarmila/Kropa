@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ {% include "header.html" %}
+        <!-- Page Header-->
+        <header class="masthead"
+                style="background-image: url({{ url_for('static', filename='assets/img/blade.jpg') }}">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Gallery</h1>
+                            <span class="subheading">This is where I live</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>On the photo above is the charming Lake Bled</p>
+                         <div class="my-5">
+                            <p><img src="/static/assets/img/things_to_do.jpg" width="100%">
+                            <span>Picturesque villages</span></p>
+                        </div>
+                          <div class="my-5">
+                            <p><img src="/static/assets/img/castle_bled.jpg" width="100%">
+                            <span>Bled Castle</span></p>
+                        </div>
+                          <div class="my-5">
+                            <p><img src="/static/assets/img/jamnik_church.jpg" width="100%">
+                            <span>Jamnik Church</span></p>
+                        </div>
+                          <div class="my-5">
+                            <p><img src="/static/assets/img/jamnik_church_cloudy.jpg" width="100%">
+                            <span>Jamnik Church in the clouds</span></p>
+                        </div>
+                          <div class="my-5">
+                            <p><img src="/static/assets/img/bohinj_bridge.jpg" width="100%">
+                            <span>Bohinjska Bistrica</span></p>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+      {% include "footer.html" %}
+    </body>
+</html>
