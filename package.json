@@ -4,7 +4,7 @@
   "description": "Houses for sale",
   "main": "main.py",
   "scripts": {
-    "start": "python main.py"
+    "start": "python3 main.py"
   },
     "repository": {
         "type": "git",
