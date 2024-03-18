@@ -77,7 +77,7 @@ def show_post(index):
 
 
 if __name__ == "__main__":
-    app.run(debug=True) #, host='0.0.0.0' to view on mobile right now
+    app.run(debug=True, port=3000) #, host='0.0.0.0' to view on mobile right now
 
 # <p>Top 15 Things to do When You are in Kropa. Are you in Kropa? Don't know what to do? Try these top 15 activities.
 # </p>  "subtitle": "Who knew that Kropa lives such interesting life."the country takes an active part in order to preserve primitiveness
